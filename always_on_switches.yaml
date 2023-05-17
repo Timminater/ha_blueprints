@@ -9,10 +9,9 @@ blueprint:
       name: Target Switch
       description: The switches that will always be kept on.
       selector:
-        entity:
-          domain:
-            - switch
-          multiple: true
+        target:
+          entity:
+            domain: switch
 mode: single
 max_exceeded: silent
 trigger:
