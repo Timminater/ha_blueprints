@@ -11,6 +11,7 @@ blueprint:
       selector:
         entity:
           domain: switch
+          multiple: true
 mode: single
 max_exceeded: silent
 trigger:
